@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* ---- MENU ----- */
+
+/* ---- FONDO DEL MENU ----- */
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    z-index: 1;
+    overflow: hidden;
+    transition: linear;
+    background: #343a40;
+    box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
+        -webkit-box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
+        -moz-box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
+}
+
+nav:hover {
+    width: 320px;
+    transition: all 0.5s ease;
+}
+
+/* ---- DISEÑO Y TEXTO LOGO ----- */
+
+.logo {
+    display: flex;
+    text-align: center;
+    margin: 20px 0px 0px 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo span {
+    margin: 20px 0px 0px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ---- DISEÑOS DEL MENU----- */
+
+#icon {
+    position: relative;
+    width: 125px;
+    height: 50px;
+    top: 14px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    margin: 0px 0px 0px 15px;
+    top: 11px;
+}
+
+a {
+    position: relative;
+    color: #ffc107;
+    font-size: 17px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+.nel {
+    top: 100px;
+    transition: all 0.3s ease;
+}
+
+.nel:hover {
+    color: #fd7e14;
+    transform: scale(1.1);
+}
+
+/* ----- ICONOS REDES SOCIALES ----- */
+
+.redes {
+    margin: 100px 0px 0px 0px;
+}
