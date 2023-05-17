@@ -45,13 +45,13 @@ h1 {
     transform: translateY(-5px);
 }
 
-@media (max-width: 1146px) {
+@media (max-width: 1350px) {
     .gallery-item {
     width: calc(50% - 20px); 
     }
 }
 
-@media (max-width: 883px) {
+@media (max-width: 820px) {
     .gallery-item {
     width: calc(100% - 20px); 
   }
