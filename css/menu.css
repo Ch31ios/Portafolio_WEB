@@ -22,7 +22,7 @@ nav {
     width: 150px;
     z-index: 1;
     overflow: hidden;
-    transition: linear;
+    transition: all 0.4s ease;
     background: #343a40;
     box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
         -webkit-box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
@@ -31,7 +31,7 @@ nav {
 
 nav:hover {
     width: 320px;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
 }
 
 /* ---- DISEÑO Y TEXTO LOGO ----- */
@@ -53,21 +53,23 @@ nav:hover {
     font-weight: bold;
 }
 
-/* ---- DISEÑOS DEL MENU----- */
+/* ---- ICONOS DEL MENÚ ----- */
 
 #icon {
     position: relative;
     width: 125px;
     height: 50px;
-    top: 14px;
+    top: 17px;
     font-size: 30px;
     text-align: center;
 }
 
+/* ----- DISEÑOS DEL MENÚ ----- */ 
+
 .nav-item{
     position: relative;
     margin: 0px 0px 0px 15px;
-    top: 11px;
+    top: 13px;
 }
 
 a {
@@ -81,7 +83,7 @@ a {
 
 .nel {
     top: 100px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .nel:hover {
