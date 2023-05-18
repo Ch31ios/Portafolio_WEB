@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* ---- CONTENEDOR DEL ACERCA ----- */
+
+.acerca {
+    margin: 0px 0px 0px 150px;
+}
+
+/* ---- CONTENEDOR DE LOS ELEMENTOS ----- */
+
+.acerca_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---- IMAGENES ----- */
+
+.imagen_1 {
+    margin: 50px auto;
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.imagen_1:hover {
+    cursor: pointer;
+    transform: scale(1.01)
+}
+
+.imagen_2 {
+    margin: 50px auto;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+
+/* ---- TEXTO UNO ----- */
+
+.texto_1 {
+    font-size: 17px;
+    margin: 30px 90px;
+    text-align: justify;
+}
+
+.texto_1 span {
+    color: black;
+}
+
+.texto_1 h1 {
+    color: #ffc107;
+    font-size: 57px;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.texto_1 h5 {
+    color: #ffc107;
+    font-size: 25px;
+    margin: 0px 0px 25px 0px;
+    letter-spacing: 2px;
+}
+
+.texto_1 p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 17px;
+    margin: 0px 0px 45px 0px;
+}
+
+/* ---- TEXTO DOS ----- */
+
+.texto_2 {
+    font-size: 17px;
+    margin: 30px 90px;
+    text-align: justify;
+}
+
+.texto_2 p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 17px;
+    margin: 0px 0px 45px 0px;
+}
+
+/* ---- RESPONSIVE ----- */
+
+@media (max-width: 820px) {
+
+    .acerca {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .acerca_main {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagen_1, 
+    .imagen_2  {
+        margin: 20px;
+    }
+
+    .texto_1, 
+    .texto_2 {
+        margin: 30px 50px;
+    }
+
+    .texto_1 h1 {
+        font-size: 35px;
+    }
+    
+    .texto_1 h5 {
+        font-size: 20px;
+        text-align: start;
+    }
+    
+    .texto_1 p {
+        font-size: 16px;
+    }
+
+}
+
+
+
