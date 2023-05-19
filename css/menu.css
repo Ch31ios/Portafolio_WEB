@@ -70,7 +70,7 @@ nav:hover {
     margin: 6.10px 0px 0px 15px;
 }
 
-a {
+nav a {
     width: 300px;
     padding: 10px;
     display: table;
