@@ -17,7 +17,7 @@ html {
 .divider {
     width: 100%;
     border-top: 1px solid black;
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 .gallery {
@@ -124,6 +124,6 @@ html {
     }
 
     .gallery {
-        margin: 35px 40px 35px 40px;
+        margin: 35px 20px 35px 20px;
     }
 }

@@ -29,7 +29,6 @@
     height: auto;
     border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
-    border-radius: 12px;
 }
 
 .imagen_1 {
@@ -99,14 +98,17 @@
 
 @media (max-width: 820px) {
 
+    html {
+        width: fit-content;
+    }
+
     .acerca {
         margin: 100px 0px 0px 0px;
     }
 
     .imagen_1, 
     .imagen_2  {
-        border-radius: 2px;
-        margin: 20px;
+        margin: 30px 0px 30px 0px;
     }
 
     .texto_1, 

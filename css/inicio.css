@@ -8,13 +8,14 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #ffc107;  
 }
 
 #inicio {
     background-size: cover;
     background-position: center, center;
-    margin: 0px 0px 0px 150px;
     height: 100vh;
+    margin: 0px 0px 0px 150px;
 }
 
 #inicio .presentacion {
@@ -103,3 +104,37 @@ html {
         width: auto;
     }
 }
+
+@media (max-width: 375px) {
+
+    #inicio .presentacion .descripcion {
+        margin: 0px;
+    }
+
+    #inicio .presentacion .bienvenida {
+        margin: 100px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 280px) {
+
+    #inicio .presentacion h2, 
+    #inicio .presentacion h2 span {
+        font-size: 30px;
+    }
+
+    #inicio .presentacion .descripcion {
+        font-size: 16px;
+    }
+
+    #inicio .presentacion .bienvenida {
+        font-size: 16px;
+        margin: 100px 0px 20px 0px;
+    }
+
+    #inicio .presentacion a {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+}
+
