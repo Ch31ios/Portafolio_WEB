@@ -13,7 +13,7 @@ html {
 /* ---- CONTENEDOR DEL ACERCA ----- */
 
 .acerca {
-    margin: 0px 0px 0px 150px;    
+    margin: 0px 0px 0px 140px;    
 }
 
 /* ---- CONTENEDOR DE LOS ELEMENTOS ----- */
@@ -34,7 +34,7 @@ html {
 }
 
 .part_1_content {
-    margin: 40px 40px 40px -80px;
+    margin: 60px 40px 40px -80px;
 }
 
 .part_1_content span {
@@ -141,7 +141,7 @@ html {
 }
 
 .icons img:hover {
-    background-color: #fd7e14;
+    background-color: rgb(200, 200, 200); 
     border: none;
     cursor: pointer;
     transform: scale(1.15);
@@ -159,55 +159,25 @@ html {
 /* ----- VENTANA MODAL ----- */
 
 .modal {
+    display: none;
+    position: fixed;
     z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    position: fixed;
-    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .modal_content {
-    height: 85%;
-    width: auto;
-    display: flex;
-    border-radius: 0px 10px 10px 0px;
+    max-height: 80%;
+    max-width: 80%;
+    border-radius: 3px;
     box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
     -webkit-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
     -moz-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
-}
-
-.modal_text {
-    width: 410px;
-    padding: 60px 20px 20px 20px;
-    border-radius: 0px 10px 10px 0px;
-    background-color: #f2f2f2;
-}
-
-.modal_text p {
-    margin: 20px;
-    font-size: 17px;
-    line-height: 28px;
-    letter-spacing: 1px;
-    text-align: start;
-    color: black;
-    text-align: start;
-}
-
-.modal_text h5 {
-    margin: 30px 20px;
-    font-size: 25px;
-    text-align: start;
-    letter-spacing: 2px;
-    color: black;
-}
-
-.modal_text span {
-    color: #ffc107;
 }
 
 .close {
@@ -260,25 +230,6 @@ html {
         margin: 20px;
     }
 
-    .modal_content {
-        height: 66%;
-    }
-    
-    .modal_text {
-        width: 350px;
-        padding: 40px 20px 30px 20px;
-    }
-
-    .modal_text p {
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .modal_text h5 {
-        margin: 0px 20px 20px 20px;
-        font-size: 19px;
-    }
-
     .click_icon  {
         top: -85px;
         left: 195px;
@@ -301,41 +252,6 @@ html {
 
     .part_2_content {
         margin: 0px 0px 20px 0px;
-    }
-
-    .modal_content {
-        width: 350px;  /* <-- TAMAÑO IMAGEN */
-        height: 100px;
-        bottom: 355px;
-        right: 135px;
-        position: relative;
-        flex-direction: column;
-    }
-
-    #modal_image {
-        border-radius: 10px 10px 0px 0px;
-        box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
-        -webkit-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
-        -moz-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
-    }
-
-    .modal_text {
-        width: 620px;  /* <-- ANCHO DEL CONTENEDOR */
-        height: 320px;  /* <-- LARGO DEL CONTENEDOR */
-        padding: 10px 20px 20px 20px;
-        border-radius: 0px 10px 10px 10px;
-        box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
-        -webkit-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
-        -moz-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
-    }
-
-    .modal_text p {
-        margin: 0px;
-        line-height: 22px;
-    }
-
-    .modal_text h5 {
-        margin: 15px 0px 15px 0px;
     }
 }
 

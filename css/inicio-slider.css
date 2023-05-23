@@ -6,7 +6,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(/img/img_inicio/1.png);
+    background-image: url(../img/img_inicio/1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,19 +14,19 @@ body {
 }
 @keyframes bgChange {
     0% {
-        background-image: url(/img/img_inicio/2.png);
+        background-image: url(../img/img_inicio/2.png);
     }
     35% {
-        background-image: url(/img/img_inicio/3.jpg);
+        background-image: url(../img/img_inicio/3.jpg);
     }
     65% {
-        background-image: url(/img/img_inicio/4.jpg);
+        background-image: url(../img/img_inicio/4.jpg);
     }
     85% {
-        background-image: url(/img/img_inicio/5.jpg);
+        background-image: url(../img/img_inicio/5.jpg);
     }
     100% {
-        background-image: url(/img/img_inicio/6.jpg);
+        background-image: url(../img/img_inicio/6.jpg);
     }
 }
 
