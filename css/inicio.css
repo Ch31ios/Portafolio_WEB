@@ -32,7 +32,6 @@ html {
 #inicio .presentacion .bienvenida {
     font-size: 25px;
     margin-bottom: 20px;
-    text-transform: uppercase;
     letter-spacing: 5px;
     color: white;
 }
@@ -47,14 +46,6 @@ html {
 #inicio .presentacion h2 span {
     font-size: 55px;
     color: #ffc107;
-}
-
-#inicio .presentacion .descripcion {
-    max-width: 600px;
-    margin: 25px auto;
-    font-size: 17px;
-    text-align: center;
-    color: white;
 }
 
 #inicio .presentacion a {
@@ -107,10 +98,6 @@ html {
 
 @media (max-width: 375px) {
 
-    #inicio .presentacion .descripcion {
-        margin: 0px;
-    }
-
     #inicio .presentacion .bienvenida {
         margin: 100px 0px 0px 0px;
     }
@@ -121,10 +108,6 @@ html {
     #inicio .presentacion h2, 
     #inicio .presentacion h2 span {
         font-size: 30px;
-    }
-
-    #inicio .presentacion .descripcion {
-        font-size: 16px;
     }
 
     #inicio .presentacion .bienvenida {
