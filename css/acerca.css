@@ -34,15 +34,15 @@ html {
 }
 
 .part_1_content {
-    margin: 40px 40px;
+    margin: 40px 40px 40px -80px;
 }
 
 .part_1_content span {
-    color: black;
+    color: #ffc107;
 }
 
 .part_1_content h1 {
-    color: #ffc107;
+    color: black;
     text-align: start;
     font-size: 57px;
     margin: 0px 45px 20px 0px;
@@ -50,7 +50,7 @@ html {
 
 .part_1_content h5 {
     text-align: start;
-    color: #ffc107;
+    color: black;
     font-size: 25px;
     margin: 0px 45px 20px 0px;
     letter-spacing: 2px;
@@ -80,22 +80,22 @@ html {
 }
 
 .part_2_content span {
-    color: black;
+    color: #ffc107;
 }
 
 .part_2_content h1 {
-    color: #ffc107;
+    color: black;
     text-align: start;
-    font-size: 57px;
+    font-size: 51px;
     margin: 0px 45px 20px 0px;
 }
 
 .part_2_content p {
-    color: black;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 17px;
     margin: 0px;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: black;
 }
 
 /* ---- IMAGENES ----- */
@@ -135,7 +135,6 @@ html {
 .icons img {
     width: 93px;
     height: 93px;
-    margin: 10px;
     padding: 10px;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -146,6 +145,15 @@ html {
     border: none;
     cursor: pointer;
     transform: scale(1.15);
+}
+
+.click_icon  {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    rotate: -15deg;
+    top: 315px;
+    right: 85px;
 }
 
 /* ----- VENTANA MODAL ----- */
@@ -164,10 +172,42 @@ html {
 }
 
 .modal_content {
-    max-width: 85%;
-    max-height: 85%;
-    border-radius: 3px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    height: 85%;
+    width: auto;
+    display: flex;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+}
+
+.modal_text {
+    width: 410px;
+    padding: 60px 20px 20px 20px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #f2f2f2;
+}
+
+.modal_text p {
+    margin: 20px;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: start;
+    color: black;
+    text-align: start;
+}
+
+.modal_text h5 {
+    margin: 30px 20px;
+    font-size: 25px;
+    text-align: start;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.modal_text span {
+    color: #ffc107;
 }
 
 .close {
@@ -188,17 +228,13 @@ html {
 
 @media (max-width: 1350px) {
 
-    .part_1 {
-        flex-direction: column;
-        margin: 30px 50px 0px 50px;
-    }
-
+    .part_1,
     .part_2 {
         flex-direction: column;
     }
     
     .part_1_content {
-        margin: 40px 40px 0px 40px;
+        margin: -90px 40px 0px 40px;
     }
 
     .part_1_content h1 {
@@ -210,7 +246,6 @@ html {
     }
 
     .part_2_content h1 {
-        font-size: 53px;
         margin: 20px 45px 20px 0px;
     }
     
@@ -220,9 +255,33 @@ html {
         margin: 0px;
     }
 
-    .imagen_1,
-    .imagen_2 {
+    .image_1,
+    .image_2 {
         margin: 20px;
+    }
+
+    .modal_content {
+        height: 66%;
+    }
+    
+    .modal_text {
+        width: 350px;
+        padding: 40px 20px 30px 20px;
+    }
+
+    .modal_text p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .modal_text h5 {
+        margin: 0px 20px 20px 20px;
+        font-size: 19px;
+    }
+
+    .click_icon  {
+        top: -85px;
+        left: 195px;
     }
 }
 
@@ -237,30 +296,46 @@ html {
     }
 
     .part_1_content{
-        margin: 20px 0px 50px 0px;
+        margin: -90px 0px 50px 0px;
     }
 
     .part_2_content {
         margin: 0px 0px 20px 0px;
     }
 
-    .part_1_content h1,
-    .part_2_content h1 {
-        font-size: 33px;
-    }
-    
-    .part_1_content h5 {
-        font-size: 18px;
-    }
-    
-    .part_1_content p,
-    .part_2_content p {
-        font-size: 16px;
+    .modal_content {
+        width: 350px;  /* <-- TAMAÑO IMAGEN */
+        height: 100px;
+        bottom: 355px;
+        right: 135px;
+        position: relative;
+        flex-direction: column;
     }
 
-    .icons img {
-        width: 75px;
-        height: 75px;
+    #modal_image {
+        border-radius: 10px 10px 0px 0px;
+        box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+        -webkit-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+        -moz-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+    }
+
+    .modal_text {
+        width: 620px;  /* <-- ANCHO DEL CONTENEDOR */
+        height: 320px;  /* <-- LARGO DEL CONTENEDOR */
+        padding: 10px 20px 20px 20px;
+        border-radius: 0px 10px 10px 10px;
+        box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+        -webkit-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+        -moz-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+    }
+
+    .modal_text p {
+        margin: 0px;
+        line-height: 22px;
+    }
+
+    .modal_text h5 {
+        margin: 15px 0px 15px 0px;
     }
 }
 
