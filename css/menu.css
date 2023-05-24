@@ -138,23 +138,23 @@ nav a {
     /* ---- CONTENEDOR DE LOS ICONOS PRINCIPALES ----- */
 
     .nav_container {
-        width: 90%;
-        margin: 0 auto;
+        width: 93%;
+        margin: 0px auto;
         height: 80px;
         display: grid;
         grid-template-columns: max-content max-content;
-        grid-template-areas: "title img";
+        grid-template-areas: "logo img";
         justify-content: space-between;
         align-items: center;
         overflow: hidden;
     }
 
-    /* ---- TITULO ----- */
+    /* ---- LOGO ----- */
 
-    .nav_title {
-        color: #ffc107;
-        font-size: 20px;
-        grid-area: title;
+    .nav_logo {
+        width: 55px;
+        height: 55px;
+        grid-area: logo;
     }
 
     /* ---- CONTENEDOR Y ICONOS ----- */
@@ -180,8 +180,8 @@ nav a {
     .dropdown {
         z-index: 1;
         position: absolute;
-        width: 240px;
-        height: 410px;
+        width: 235px;
+        height: 400px;
         top: 0;
         right: 0;
         bottom: 0;

@@ -248,25 +248,25 @@ html {
 
     .part_1_content,
     .part_2_content {
-        width: 320px;
+        width: 300px;
     }
     .part_1_content {
-        margin: -40px 0px 50px 0px;
+        margin: -70px 0px 50px 0px;
     }
 
     .part_1_content h1,
     .part_2_content h1 {
-        font-size: 33px;
+        font-size: 30px;
         margin-top: 0px;
     }
 
     .part_1_content h5 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .part_1_content p,
     .part_2_content p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .image_1,
@@ -289,7 +289,7 @@ html {
     }
 
     .icons img:hover {
-        transform: scale(1.05);
+        transform: scale(1.03);
     }
 }
 
