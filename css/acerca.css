@@ -16,12 +16,6 @@ html {
     margin: 0px 0px 0px 140px;    
 }
 
-/* ---- CONTENEDOR DE LOS ELEMENTOS ----- */
-
-.acerca_main {
-    position: absolute;
-}
-
 /* ---- PARTE UNO ----- */
 
 .part_1 {
@@ -142,7 +136,6 @@ html {
 
 .icons img:hover {
     background-color: rgb(160, 160, 160); 
-    border: none;
     transform: scale(1.15);
 }
 
@@ -237,12 +230,8 @@ html {
 
 @media (max-width: 820px) {
 
-    html {
-        width: fit-content;
-    }
-
     .acerca {
-        margin: 80px 0px 0px 0px;
+        margin: 110px 0px 0px 0px;
     }
 
     .part_1_content{
@@ -251,6 +240,56 @@ html {
 
     .part_2_content {
         margin: 0px 0px 20px 0px;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    .part_1_content,
+    .part_2_content {
+        width: 340px;
+    }
+    .part_1_content {
+        margin: -40px 0px 50px 0px;
+    }
+
+    .part_1_content h1,
+    .part_2_content h1 {
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+    .part_1_content h5 {
+        font-size: 19px;
+    }
+
+    .part_1_content p,
+    .part_2_content p {
+        font-size: 14px;
+    }
+
+    .image_1,
+    .image_2 {
+        width: 340px;
+    }
+
+    .click_icon {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        rotate: -15deg;
+        left: 10px;
+        top: -100px;
+    }
+
+    .icons img  {
+        width: 65px;
+        height: 65px;
+    }
+
+    .icons img:hover {
+        transform: scale(1.5);
     }
 }
 

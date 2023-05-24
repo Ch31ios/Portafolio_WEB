@@ -11,7 +11,7 @@ body {
 }
 
 
-h1 {
+.gallery h1 {
     text-align: center;
     align-items: center;
     margin: 0px 0px 10px 0px;
@@ -124,7 +124,7 @@ h1 {
         width: calc(100% - 20px); 
     }
 
-    h1 {
+    .gallery h1 {
         margin: 80px 0px 10px 0px;
     }
 
