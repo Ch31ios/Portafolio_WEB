@@ -125,6 +125,9 @@ nav a {
         width: 100%;
         display: block;
         background-color: #343a40;
+        box-shadow: 0px 10px 36px -5px rgba(0,0,0,0.29);
+            -webkit-box-shadow: 0px 10px 36px -5px rgba(0,0,0,0.29);
+            -moz-box-shadow: 0px 10px 36px -5px rgba(0,0,0,0.29);
         --img1: scale(1);
         --img2: scale(0);
     }
@@ -221,7 +224,6 @@ nav a {
         margin: 0px 0px 0px 30px;
         font-size: 15px;
     }
-    
 }
 
 
