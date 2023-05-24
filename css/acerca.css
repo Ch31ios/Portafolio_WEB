@@ -248,7 +248,7 @@ html {
 
     .part_1_content,
     .part_2_content {
-        width: 340px;
+        width: 320px;
     }
     .part_1_content {
         margin: -40px 0px 50px 0px;
@@ -256,22 +256,22 @@ html {
 
     .part_1_content h1,
     .part_2_content h1 {
-        font-size: 35px;
+        font-size: 33px;
         margin-top: 0px;
     }
 
     .part_1_content h5 {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .part_1_content p,
     .part_2_content p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .image_1,
     .image_2 {
-        width: 340px;
+        width: 330px;
     }
 
     .click_icon {
@@ -289,7 +289,7 @@ html {
     }
 
     .icons img:hover {
-        transform: scale(1.5);
+        transform: scale(1.05);
     }
 }
 
