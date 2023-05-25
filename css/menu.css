@@ -114,7 +114,7 @@ nav a {
         display: none;
     }
 
-    /* ---- MENU RESPONSIVE ----- */
+    /* ---- MENÚ RESPONSIVE ----- */
 
     /* ---- CONTENEDOR PRINCIPAL ----- */
 
@@ -141,8 +141,7 @@ nav a {
     /* ---- CONTENEDOR DE LOS ICONOS PRINCIPALES ----- */
 
     .nav_container {
-        width: 93%;
-        margin: 0px auto;
+        width: 100%;
         height: 80px;
         display: grid;
         grid-template-columns: max-content max-content;
@@ -152,20 +151,13 @@ nav a {
         overflow: hidden;
     }
 
-    /* ---- LOGO ----- */
-
-    .nav_logo {
-        width: 55px;
-        height: 55px;
-        grid-area: logo;
-    }
-
     /* ---- CONTENEDOR Y ICONOS ----- */
 
     .nav_menu {
-        grid-area: img;
-        position: relative;
         z-index: 10;
+        position: relative;
+        right: 25px;
+        grid-area: img;
         transform: var(--img1);
         transition: .2s;
     }
@@ -174,12 +166,28 @@ nav a {
         transform: var(--img2);
     }
 
-    .nav_icon {
-        width: 30px;
-        display: block;
+    
+    /* ---- LOGO Y ICONO DE APERTURA DEL MENÚ ----- */
+
+    .nav_logo {
+        grid-area: logo;
+        width: 55px;
+        height: 55px;
+        margin: 0px 0px 0px 10px;
     }
 
-    /* ---- MENU DESCENDENTE ----- */
+    .nav_logo img {
+        width: 55px;
+        height: 55px;
+        grid-area: logo;
+    }
+
+    .nav_icon {
+        width: 30px;
+        display: block; 
+    }
+
+    /* ---- MENÚ DESCENDENTE ----- */
 
     .dropdown {
         z-index: 1;
@@ -213,14 +221,14 @@ nav a {
         gap: .6rem;
     }
 
-    /* ---- ICONOS MENU DESCENDENTE ----- */
+    /* ---- ICONOS MENÚ DESCENDENTE ----- */
 
     .dropdown_icon {
         width: 30px;
         height: 30px;
     }
 
-    /* ---- TEXTO MENU DESCENDENTE ----- */
+    /* ---- TEXTO MENÚ DESCENDENTE ----- */
 
     .dropdown_span {
         margin: 0px 0px 0px 30px;
