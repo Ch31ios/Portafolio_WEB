@@ -170,16 +170,15 @@ nav a {
     /* ---- LOGO Y ICONO DE APERTURA DEL MENÚ ----- */
 
     .nav_logo {
-        grid-area: logo;
         width: 55px;
         height: 55px;
         margin: 0px 0px 0px 10px;
+        grid-area: logo;
     }
 
     .nav_logo img {
         width: 55px;
         height: 55px;
-        grid-area: logo;
     }
 
     .nav_icon {
