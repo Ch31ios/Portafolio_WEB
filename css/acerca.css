@@ -135,7 +135,7 @@ html {
 }
 
 .icons img:hover {
-    background-color: rgb(160, 160, 160); 
+    background-color: #fd7d14b4; 
     transform: scale(1.15);
 }
 
