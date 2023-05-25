@@ -94,8 +94,8 @@ body {
 
 .close {
     position: absolute;
-    top: 20px;
-    right: 40px;
+    top: 40px;
+    right: 20px;
     font-size: 40px;
     color: #fff;
     cursor: pointer;

@@ -231,6 +231,7 @@ nav a {
 
     .dropdown_span {
         margin: 0px 0px 0px 30px;
+        padding: 4px 0px 0px 0px;
         font-size: 15px;
     }
 }

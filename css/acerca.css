@@ -174,8 +174,8 @@ html {
 
 .close {
     position: absolute;
-    top: 20px;
-    right: 40px;
+    top: 40px;
+    right: 20px;
     font-size: 40px;
     color: #fff;
     cursor: pointer;
@@ -251,7 +251,7 @@ html {
         width: 300px;
     }
     .part_1_content {
-        margin: -70px 0px 50px 0px;
+        margin: -40px 0px 50px 0px;
     }
 
     .part_1_content h1,
@@ -266,7 +266,7 @@ html {
 
     .part_1_content p,
     .part_2_content p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .image_1,
@@ -276,16 +276,16 @@ html {
 
     .click_icon {
         position: relative;
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
         rotate: -15deg;
-        left: 10px;
-        top: -100px;
+        left: 50px;
+        top: -70px;
     }
 
     .icons img  {
-        width: 55px;
-        height: 55px;
+        width: 65px;
+        height: 65px;
     }
 
     .icons img:hover {
