@@ -173,17 +173,20 @@ html {
 }
 
 .close {
+    top: 25px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 40px;
-    right: 40px;
-    font-size: 40px;
-    color: #fff;
-    cursor: pointer;
-    transition: all 0.3s ease;
 }
 
-.close:hover {
-    color: #fd7e14;
+.close img {
+    width: 30px;
+    height: 30px;
+}
+
+.close img:hover {
+    cursor: pointer;
+    filter: invert(44%) sepia(88%) saturate(632%) hue-rotate(349deg) brightness(109%) contrast(99%);
 }
 
 /* ---- RESPONSIVE ----- */
