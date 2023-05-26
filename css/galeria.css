@@ -89,7 +89,9 @@ body {
     max-width: 85%;
     max-height: 85%;
     border-radius: 3px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 13px 19px -4px rgba(0,0,0,0.52);
 }
 
 .close {
