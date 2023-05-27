@@ -96,6 +96,7 @@ body {
 
 .close {
     top: 25px;
+    right: 25px;
     width: 30px;
     height: 30px;
     position: absolute;
@@ -133,5 +134,10 @@ body {
 
     .gallery {
         margin: 35px 20px 35px 20px;
+    }
+
+    .close {
+        top: 25px;
+        right: auto;
     }
 }

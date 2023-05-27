@@ -10,7 +10,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: bgChange 30s linear infinite;
+    animation: bgChange 25s linear infinite;
+    -webkit-animation: bgChange 25s linear infinite;
 }
 @keyframes bgChange {
     0% {
