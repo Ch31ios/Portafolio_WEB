@@ -24,7 +24,7 @@ nav {
     overflow: hidden;
     overflow-y: auto;
     transition: all 0.4s ease;
-    background: #343a40;
+    background: #000000;
     box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
         -webkit-box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
         -moz-box-shadow: 7px 0px 17px -1px rgba(0,0,0,0.53);
@@ -124,7 +124,7 @@ nav a {
         top: 0;
         width: 100%;
         display: block;
-        background-color: #343a40;
+        background-color: #000000;
         box-shadow: 0px 10px 36px -5px rgba(0,0,0,0.29);
             -webkit-box-shadow: 0px 10px 36px -5px rgba(0,0,0,0.29);
             -moz-box-shadow: 0px 10px 36px -5px rgba(0,0,0,0.29);
@@ -202,7 +202,7 @@ nav a {
         border-radius: 0px 0px 0px 45px;
         align-items: center;
         justify-content: center;
-        background-color: #262a2f;
+        background-color: #000000f3;
         clip-path: var(--clip, inset(0 0 0 100%));
         transition: clip-path .5s;
     }
