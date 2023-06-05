@@ -16,22 +16,40 @@ html {
     margin: 0px 0px 0px 150px;    
 }
 
-/* ---- PARTE UNO ----- */
+/* ---- PARTE #1 y PARTE #2 ----- */
 
 .part_1 {
-    font-size: 17px;
-    margin: 30px 50px 0px 50px;
-    text-align: justify;
+    margin: 30px 80px 0px 80px;
+}
+
+.part_2 {
+    justify-content: end;
+    margin: 0px 80px 30px 80px;
+}
+
+.part_1,
+.part_2 {
     display: flex;
+    text-align: justify;
     flex-direction: row;
     align-items: center;
+}
+
+.part_1_content,
+.part_2_content {
+    width: 100%;
 }
 
 .part_1_content {
     margin: 60px 40px 40px -80px;
 }
 
-.part_1_content span {
+.part_2_content {
+    margin: 60px 40px 60px 40px;
+}
+
+.part_1_content span,
+.part_2_content span {
     color: #ffc107;
 }
 
@@ -39,53 +57,24 @@ html {
     color: black;
     text-align: start;
     font-size: 57px;
-    margin: 0px 45px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
-.part_1_content h5 {
-    text-align: start;
-    color: black;
-    font-size: 25px;
-    margin: 0px 45px 20px 0px;
+.part_1_content h5,
+.part_2_content h5 {
+    margin: 0px 0px 20px 0px;
     letter-spacing: 2px;
+    font-size: 28px;
+    color: black;
+    justify-content: space-between;
 }
 
 .part_1_content p {
-    color: black;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 17px;
     margin: 0px 0px 30px 0px;
 }
 
-/* ---- PARTE DOS ----- */
-
-.part_2 {
-    font-size: 17px;
-    margin: 0px 50px 30px 50px;
-    text-align: justify;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.part_2_content {
-    margin: 40px 40px;
-}
-
-.part_2_content span {
-    color: #ffc107;
-}
-
-.part_2_content h1 {
-    color: black;
-    text-align: start;
-    font-size: 51px;
-    margin: 0px 45px 20px 0px;
-}
-
+.part_1_content p,
 .part_2_content p {
-    margin: 0px;
     font-size: 17px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -192,7 +181,7 @@ html {
 
 /* ---- RESPONSIVE ----- */
 
-@media (max-width: 1350px) {
+@media (max-width: 1418px) {
 
     .part_1,
     .part_2 {
@@ -205,14 +194,6 @@ html {
 
     .part_1_content h1 {
         font-size: 53px;
-    }
-    
-    .part_1_content h5 {
-        font-size: 25px;
-    }
-
-    .part_2_content h1 {
-        margin: 20px 45px 20px 0px;
     }
     
     .part_1_content p,
@@ -266,14 +247,18 @@ html {
         margin: -40px 0px 50px 0px;
     }
 
-    .part_1_content h1,
-    .part_2_content h1 {
+    .part_1_content h1 {
         font-size: 30px;
         margin-top: 0px;
     }
 
     .part_1_content h5 {
         font-size: 16px;
+    }
+
+    .part_1_content h5,
+    .part_2_content h5 {
+        font-size: 17px;
     }
 
     .part_1_content p,
